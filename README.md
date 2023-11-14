@@ -20,7 +20,6 @@ Features:
   - [Qt Installation on Linux](#qt-installation-on-linux)
   - [Building the Project](#building-the-project)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -59,7 +58,7 @@ This project relies on the Qt framework. Follow the steps below to install Qt:
    export PATH="/path/to/qt/bin:$PATH"
    ```
 
-### Qt Installation on Ubuntu 
+## Qt Installation on Ubuntu 
 
 On Ubuntu or other Debian-based Linux distributions, use the following command to install the Qt 5 framework:
 
@@ -71,7 +70,7 @@ sudo apt install qt5-default
 This command installs the default version of the Qt framework (Qt 5) along with essential development tools.
 
 
-### Verify the Installation:
+_Verify the Installation:_
 
 After the installation, you can verify that Qt is installed correctly by checking the installed version:
 
@@ -83,8 +82,11 @@ This should display information about the installed version of qmake, the build 
 
 For example: 
 
-`QMake version 3.1`
-`Using Qt version 5.12.8 in /usr/lib/x86_64-linux-gnu`
+<code style="background-color: #f0f0f0; padding: 10px; display: block;">
+QMake version 3.1
+Using Qt version 5.12.8 in /usr/lib/x86_64-linux-gnu
+</code>
+
 
 ### Setting Up Visual Studio Code for Qt Development
 
@@ -146,11 +148,12 @@ qmake -o Makefile QtSampler.pro
 
 Build the project using:
 
+```
 make
+```
 
 
-
-## To Run
+### Usage (to Run)
 
 Execute the compiled binary:
 
