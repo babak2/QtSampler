@@ -6,10 +6,10 @@ QtSampler is a simple Qt application that serves as a starting point for develop
 
 Features:
 
-    Minimalistic GUI application.
-    Utilizes Qt Widgets for the graphical interface.
-    Written in C++ for flexibility and performance.
-    Easy-to-understand code structure for educational purposes.
+- Minimalistic GUI application.
+- Utilizes Qt Widgets for the graphical interface.
+- Written in C++ for flexibility and performance.
+- Easy-to-understand code structure for educational purposes.
 
 
 ## Table of Contents
@@ -92,7 +92,7 @@ Inside the `.vscode` folder, in `c_cpp_properties.json` file, make sure to modif
 
 Also, make sure to modify "includePath" value to point to the location of your Qt library if you have a different version of Qt or a different directory structure (other than `/usr/include/x86_64-linux-gnu/qt5`).
 
-
+<code style="background-color: #f0f0f0; padding: 10px; display: block;">
 {
   "configurations": [
     {
@@ -114,7 +114,7 @@ Also, make sure to modify "includePath" value to point to the location of your Q
   ],
   "version": 4
 }
-
+</code>
 
 # Building the Project
 
