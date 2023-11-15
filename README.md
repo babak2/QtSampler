@@ -23,6 +23,7 @@ Features:
 - [License](#license)
 
 
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -70,7 +71,7 @@ sudo apt install qt5-default
 This command installs the default version of the Qt framework (Qt 5) along with essential development tools.
 
 
-_Verify the Installation:_
+**Verify the Installation:**
 
 After the installation, you can verify that Qt is installed correctly by checking the installed version:
 
@@ -81,7 +82,6 @@ qmake --version
 This should display information about the installed version of qmake, the build date, and the Qt version.
 
 For example: 
-
 <code style="background-color: #f0f0f0; padding: 10px; display: block;">
 QMake version 3.1
 Using Qt version 5.12.8 in /usr/lib/x86_64-linux-gnu
@@ -93,7 +93,6 @@ Using Qt version 5.12.8 in /usr/lib/x86_64-linux-gnu
 Inside the `.vscode` folder, in `c_cpp_properties.json` file, make sure to modify "compilerPath" value to point to the location of your GCC compiler, if your GCC location is different.
 
 Also, make sure to modify "includePath" value to point to the location of your Qt library if you have a different version of Qt or a different directory structure (other than `/usr/include/x86_64-linux-gnu/qt5`).
-
 <code style="background-color: #f0f0f0; padding: 10px; display: block;">
 {
   "configurations": [
