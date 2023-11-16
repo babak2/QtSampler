@@ -19,7 +19,7 @@ Features:
   - [Qt Installation](#qt-installation)
   - [Qt Installation on Linux](#qt-installation-on-linux)
   - [Building the Project](#building-the-project)
-- [Usage](#usage)
+   - [To Run](#to-run)
 - [License](#license)
 
 
@@ -59,7 +59,7 @@ This project relies on the Qt framework. Follow the steps below to install Qt:
    export PATH="/path/to/qt/bin:$PATH"
    ```
 
-## Qt Installation on Ubuntu 
+### Qt Installation on Ubuntu
 
 On Ubuntu or other Debian-based Linux distributions, use the following command to install the Qt 5 framework:
 
@@ -152,7 +152,7 @@ make
 ```
 
 
-### Usage (to Run)
+### To Run
 
 Execute the compiled binary:
 
