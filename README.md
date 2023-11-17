@@ -17,7 +17,6 @@ Features:
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
   - [Qt Installation](#qt-installation)
-  - [Qt Installation on Linux](#qt-installation-on-linux)
   - [Building the Project](#building-the-project)
    - [To Run](#to-run)
 - [License](#license)
